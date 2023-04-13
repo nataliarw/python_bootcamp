@@ -1,0 +1,22 @@
+.barra{
+    background-image: url(./fondo.jpg);
+    background-size: 300px 100px;
+    background-position: center;
+    
+
+}
+
+.forms{
+    background-color: #070707;
+    padding: 3%;
+    color: white;
+    border-radius: 3%;
+    text-size-adjust: 100%;
+ 
+  }
+
+.foot{
+   background-position: 400px;
+   background-repeat: no-repeat;
+   background-blend-mode: color-dodge;
+}

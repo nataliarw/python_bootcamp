@@ -1,0 +1,40 @@
+.barra{
+    background-image: url(./fondo.jpg);
+    background-size: 50%;
+    background-blend-mode: color-dodge;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.navbar-brand img{
+    width: 60%;
+
+}
+.forms{
+    background-color: #070707;
+    padding: 3%;
+    color: white;
+    border-radius: 3%;
+    text-size-adjust: 100%;
+ 
+  }
+
+.foot{
+    font-size: medium;
+   
+}
+
+@media(min-width:768px){
+    .barra{
+        background-repeat: repeat-x;
+        background-size: space space space;
+    }
+    .foot{
+    background-image: url(./fondo.jpg);   
+    background-repeat: no-repeat;
+    background-position:600px;
+    background-blend-mode: color-dodge;
+    background-size: contain;
+    }
+}
+    

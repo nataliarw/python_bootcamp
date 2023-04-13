@@ -1,0 +1,15 @@
+#text1 {
+    background-color: blueviolet;
+    padding: 20px;
+    margin-bottom: 15px;
+
+}
+
+#text2 {
+    background-color: orange;
+    padding: 20px;
+    margin: 15px;
+    width: 50%;
+    display: none;
+
+}

@@ -1,0 +1,161 @@
+<!--Creando un comentario-->
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nimrorel Pub Restaurant</title>
+  <link rel="icon" href="/img/favicon.ico">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha384- UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">  </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#productos">Nuestros Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sobre Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#comuniquemonos">Comuniquémonos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#reserva">Reserva</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <section>
+    <div>
+      <center>
+        <img src="img/n.png" alt="logo">
+      </center>
+    </div>
+    
+  </section>
+    <h1 class="titulo">Nimrodel Pub Restaurant</h1> <br><br>
+    <h2 class="destacado"> Destacados de la Semana </h2> <br><br>
+    <section class="promociones">
+      <div id="productos">
+        <img class="fotos" src="./img/bebidas.jpg" alt="bebidas">
+      </div>
+      <div>
+        <h4>Bebidas</h4>
+      </div>
+      <div>
+        <p>
+          Todas las bebidas se sirven con hielo y sin bombilla para cuidar el planeta
+        </p>
+      </div>
+    </section>
+    <section class="promociones">
+      <div>
+        <img class="fotos" src="./img/tablas.jpg" alt="tablas">
+      </div>
+      <div>
+        <h4>Deliciosas tablas</h4>
+      </div>
+      <div>
+        <p>
+          Encontrarás tablas creadas con los mejores productos, tenemos opciones veganas, carnívoras, keto y gluten Free
+        </p>
+      </div>
+    </section>
+    <section class="promociones">
+      <div>
+        <img class="fotos" src="./img/shop.jpg" alt="Cervezas">
+      </div>
+      <div>
+        <h4>Cervezas</h4>
+      </div>
+      <div>
+        <p>
+          Servidas a la perfecta temperatura y cantidad de espuma dependiendo del tipo de cerveza que prefieras
+        </p>
+      </div>
+    </section> 
+
+    <br> <br> <br>
+
+    <section class="formularios">
+      <div id="comuniquemonos">
+        <h2 class="ms-2"> COMUNIQUÉMONOS </h1> <br><br>
+          <form action="comok.html" method="post">
+            <label class="ms-2" for=""> <b>NOMBRE</b></label>
+            <input class="ms-2" type="text" name="nombre" required pattern="^[a-zA-Z\s]+$"><br><br>
+            <label class="ms-2" for=""> <b>CORREO</b></label>
+            <input class="ms-2" type="email" name="correo" required /><br><br>
+            <label class="ms-2" for=""><b>TELÉFONO</b></label>
+            <input class="ms-2" type="tel" name="telefono" required pattern="^[0-9]{9}$"><br><br>
+            <label class="ms-2" for=""><b>MOTIVO</b></label>
+            <select id="dir2" class="ms-2" type="text" name="MOTIVO">
+              <option>seleccione una opción</option>
+              <option value="1">FELICITACIONES</option>
+              <option value="2">SUJERENCIA</option>
+              <option value="3">RECLAMO</option>
+              <option value="3">CONSULTAS</option>
+            </select> <br><br>
+            <textarea class="ms-2" name="motivo" id="motivo" cols="30" rows="10"></textarea><br><br>
+
+            <button class="ms-2">Enviar</button> <br> <br><br>
+          </form>
+      </div>
+
+    </section>
+    <section class="formularios">
+      <div id="reserva">
+        <h2 class="ms-2"> RESERVA</h1> <br><br>
+          <form action="reservaok.html" method="get">
+            <label class="ms-2" for=""> <b>NOMBRE</b></label>
+            <input class="ms-2" type="text" name="nombre" required pattern="^[a-zA-Z\s]+$"><br><br>
+            <label class="ms-2" for=""> <b>CORREO</b></label>
+            <input class="ms-2" type="email" name="correo" required pattern="^[0-9]{9}$" />
+            <br><br>
+            <label class="ms-2" for=""><b>TELÉFONO</b></label>
+            <input class="ms-2" type="tel" name="telefono" required><br><br>
+            <label class="ms-2" for=""><B>FECHA</B></label>
+            <input class="ms-2" type="date" name="fecha" required><br><br>
+            <label class="ms-2" for=""><B>HORA</B></label>
+            <input class="ms-2" type="time" name="hora" required><br><br>
+            <label class="ms-2" for=""><b>CANTIDAD DE ASISTENTES</b></label> <br>
+            <input class="ms-2" type="number" name="cantidad" min="1" max="10" required><br><br>
+
+            <button class="ms-2">Reservar</button> <br><br><br> <br>
+          </form>
+      </div>
+
+
+    </section>
+  <footer>
+    <div class="wisk">
+      <p> <center> Todos los derechos reservados <i class="fa-regular fa-registered"></i></center>
+    </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

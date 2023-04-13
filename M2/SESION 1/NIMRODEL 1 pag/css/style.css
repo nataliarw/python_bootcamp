@@ -1,0 +1,37 @@
+
+.titulo{
+  font-size: 5em; 
+  color: grey;
+  text-align: center; 
+}
+
+.destacado{
+    text-align: center;
+    text-decoration:overline
+}
+.promociones {
+    width: 350px;
+    height: auto;
+    float:left;
+    border-radius: 50px;
+    margin-left: 5%;
+   text-align: center;
+}
+
+.fotos {
+    width: 350px;
+    height: 250px ;
+    align-items: center;
+}
+.formularios{
+    text-align: center;
+    width: 100%;
+  
+}
+
+footer{
+    background-image:url("./imgstyle/fondo.jpg");
+    background: size 90px;
+    color: white;
+    
+}

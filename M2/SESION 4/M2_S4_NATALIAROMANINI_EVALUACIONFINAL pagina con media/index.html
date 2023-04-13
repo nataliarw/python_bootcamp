@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NIMRODEL PUB RESTAURANT</title>
+    <link rel="icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+     
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid barra">
+            <a class="navbar-brand" href="#"> <img src="./img/n chico.png" alt="logo" class="logo"> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nuestros Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reserva">Reserva</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Comuniquemonos">Comuniquémonos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--titulo-->
+    <section class="my-5">
+        <div class="container text-center">
+            <h1 class="p-5 text-secondary fs-bold">NIMRODEL PUB RESTAURANT</h1>
+            <h4 class="p-2" style="text-decoration: overline;">Destacados de la semana</h4>
+        </div>
+    </section>
+
+    <!--carta-->
+    <section>
+        <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-3">
+            <div class="col my-4">
+                <div class="card h-100">
+                    <img src="./img/bebidas.jpg" class="card-img-top" alt="bebidas"
+                        style="height: 20vw; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Bebidas</h5>
+                        <p class="card-text">Todas las bebidas se sirven con hielo y sin bombilla para cuidar el planeta
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col my-4">
+                <div class="card h-100">
+                    <img src="./img/tablas.jpg" class="card-img-top" alt="tablas"
+                        style="height: 20vw; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Deliciosas tablas</h5>
+                        <p class="card-text">Encontrarás tablas creadas con los mejores productos, tenemos opciones
+                            veganas, carnívoras, keto y gluten Free
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col my-4 row col-lg-6 mx-auto">
+            <div class="card h-100 cerveza">
+                <img src="./img/shop.jpeg" class="card-img-top" alt="cervezas"
+                    style="height: 20vw; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Cervezas</h5>
+                    <p class="card-text">Servidas a la perfecta temperatura y cantidad de espuma dependiendo del
+                        tipo de cerveza que prefieras.</p>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+
+    <!--formularios-->
+    <section class="container d-none d-lg-block">
+        <div class=" mx-auto col-10 col-md-8 col-lg-6 text-center">
+            <div class="forms">
+                <form action="mensajeok.html"  method="post" id="Comuniquemonos">
+                    <h6>Comuniquémonos</h6>
+                    <div class="mb-3">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="exampleInputEmail1" aria-describedby="emailHelp" required pattern="^[a-zA-Z\s]+$" placeholder="Juan Perez">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">correo</label>
+                        <input type="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="xxxx@xxxx.com" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="telefono" class="form-label">teléfono</label>
+                        <input type="tel" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="x-xxxxxxx" required pattern="^[0-9]{9}$">
+                    </div>
+                    <div class="mb-3">
+                        <label for=""> Motivo </label>
+                        <select type="text" name="motivo">
+                            <option>seleccione una opción</option>
+                            <option value="1">Sugerencia</option>
+                            <option value="2">Felicitaciones</option>
+                            <option value="3">Consultas</option>
+                            <option value="3">Reclamos</option>
+                        </select> <br><br>
+                        <textarea name="motivo" id="motivo" cols="30" rows="5"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+            <div class="forms mt-5 mb-5">
+                <form action="reservaok.html" method="post" id="reserva">
+                    <h6>Reserva</h6>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Juan Perez">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="xxxxx@gmail.com">
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="telefono" class="form-label">teléfono</label>
+                        <input type="tel" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="x-xxxxxxx">
+                    </div>
+                    <div class="mb-3">
+                        <label for=""> Fecha </label>
+                        <input type="date" name="">
+                    </div>
+                    <div class="mb-3">
+                        <label for=""> Hora </label>
+                        <input type="time" name="">
+                    </div>
+                    <div class="mb-3">
+                        <label for=""> Cantidad de Asistentes </label><br>
+                        <input type="number" min="1" max="10" name="">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary mt-2">Reservar</button>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer>
+        <section class="container-fluid bg-dark foot text-center text-light sticky.bottom">
+            <p class="p-5">Todos los derechos reservados <i class="far fa-registered" style="color: #ebedef;"></i></p>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

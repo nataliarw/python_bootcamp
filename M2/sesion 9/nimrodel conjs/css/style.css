@@ -1,0 +1,44 @@
+.barra{
+    background-image: url(../img/fondo.jpg);
+    background-size: 180px 85px;
+    background-blend-mode: color-dodge;
+    background-position: 80px 25px;
+    
+}
+
+/* etiquetas h1 */
+h1 {
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+/* etiquetas h4 */
+h4{
+    text-decoration: overline;
+}
+/* tamaño del logo */
+.navbar-brand img{
+    width: 10%
+}
+/* formulario */
+.formulario{
+    width: 60%;
+    border-radius: 2%;
+}
+
+p{
+    font-size: 1em;
+}
+
+
+.foot{
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: 600px 20px;
+    background-size: 250px 110px;
+    background-blend-mode: color-dodge;
+}
+
+
+
+    
+
