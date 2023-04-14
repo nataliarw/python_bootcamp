@@ -30,17 +30,12 @@ p{
 }
 
 
-
 .foot{
-    margin-top: 10%;
     background-image: url(../img/fondo.jpg);
     background-repeat: no-repeat;
     background-position: 600px 20px;
     background-size: 250px 110px;
     background-blend-mode: color-dodge;
- 
- 
-
 }
 
 

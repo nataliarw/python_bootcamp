@@ -32,10 +32,6 @@
                         <a class="nav-link" href="#">Nuestros Productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#nombremodal">Sobre
-                            Nosotros</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservas</a>
                     </li>
                     <li class="nav-item">
@@ -50,16 +46,16 @@
     <!-- titulo -->
     <section class="mt-5">
         <div class="container text-center">
-            <h1 class="pb-4 text-secondary fw-bold">Nimrodel Pub Restaurant</h1>
+            <h1 class="pb-4 text-secondary fw-bold" >Nimrodel Pub Restaurant</h1>
             <h4 class="pt-3 fw-bold">Destacados de la semana</h4>
         </div>
     </section>
 
     <!-- cartas -->
-    <section class="container mt-4">
+    <section class="container mt-4" >
         <div class="row row-cols-1 row-cols-md-3 g-6">
             <!-- primera carta -->
-            <div class="col my-2" data-bs-toggle="modal" data-bs-target="#bebidasmodal">
+            <div class="col my-2" data-bs-toggle="modal" data-bs-target="#bebidasmodal" >
                 <div class="card h-100">
                     <img src="./img/bebidas.jpg" class="card-img-top object-fit-cover" alt="bebidas"
                         style="height: 20vw;">
@@ -73,7 +69,7 @@
             <!-- segunda carta -->
             <div class="col my-2" data-bs-toggle="modal" data-bs-target="#tablamodal">
                 <div class="card h-100">
-                    <img src="./img/tablas.jpg" class="card-img-top object-fit-cover" alt="tablas" id="tablas"
+                    <img src="./img/tablas.jpg" class="card-img-top object-fit-cover" alt="tablas"id="tablas"
                         style="height: 20vw;">
                     <div class="card-body">
                         <h5 class="card-title">Deliciosas Tablas</h5>
@@ -114,7 +110,7 @@
                     </div>
                     <div class="mb-3"><!--telefono-->
                         <label for="telefono" class="form-label">Teléfono</label>
-                        <input type="tel" class="form-control" id="telefono" placeholder="956000890">
+                        <input type="tel" class="form-control" id="telefono" placeholder="956000890" >
                     </div>
                     <div>
                         <label for="comentario" class="form-label">Cuéntanos</label>
@@ -130,7 +126,7 @@
                             id="floatingTextarea"></textarea>
                     </div>
                     <!-- boton -->
-                    <button type="submit" class="btn btn-primary mb-3" id=enviarc>Enviar</button>
+                    <button type="submit" class="btn btn-primary mb-3" id = enviarc>Enviar</button>
                 </form>
             </div>
             <!-- reserva -->
@@ -148,7 +144,7 @@
                     </div>
                     <div class="mb-3"><!--telefono-->
                         <label for="telefono" class="form-label">Teléfono</label>
-                        <input type="tel" class="form-control" id="telefono" placeholder="956000890">
+                        <input type="tel" class="form-control" id="telefono" placeholder="956000890" >
                     </div>
                     <div class="mb-3"><!--fecha-->
                         <label for="fecha" class="form-label">Fecha</label>
@@ -167,7 +163,7 @@
             </div>
         </div>
     </section>
-    <section class="container-fluid mb-5">
+    <section class="container-fluid">
         <div id="carouselExampleIndicators" class="carousel slide">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -179,26 +175,13 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./img/IMG2.jpg" class="d-block w-100" alt="..." style="height: 30rem ;">
-                    <div class="carousel-caption text-center">
-                        <p style="font-size: large;"> “ Nimrodel Significa “dama de la cueva blanca”. Fue una elfa silvana que vivió durante la
-                            Tercera Edad del Sol en el bosque de Lothlórien. En honor a su nombre, se acuña Nimrodel al
-                            río
-                            que nace en las Montañas Nubladas”</p>
-                    </div>
-                </div>
-                <div class="carousel-item bg-dark d-block w-100" style="height: 30rem;">
-                    <div class="carousel-caption text-center mb-5">
-                        <p style="font-size: medium;"> “Nimrodel Pub Restaurant es un oasis de calma y diversión, lleno de rincones acogedores en
-                            donde se resalta la belleza de su decoración élfica. Es un lugar ideal para visitar solo o
-                            aco mpañado, disfrutar una tarde con amigos, terminar el día después del trabajo o almorzar
-                            con tu familia. Puedes probar nuestras tradicionales tablas, en todas sus variedades y que
-                            nos han otorgado reconocimiento dentro de la cultura gastronómica. También puedes disfrutar
-                            nuestras cervezas de fabricación propia, con sabores que te llevarán a un mágico mundo.”</p>
-                    </div>
+                    <img src="./img/mojito.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="./img/IMG1.jpg" class="d-block w-100" alt="..." style="height: 30rem ;">
+                    <img src="./img/vino.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/chorillana.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -215,90 +198,68 @@
     </section>
 
     <!-- modal -->
-    <div class="modal" tabindex="-1" role="dialog" id="nombremodal">
-        <div class="modal-dialog modal-lg" role="">
-            <div class="bg-dark text-light text-center">
-                <div class="d-flex justify-content-start " id="cerrar">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                    </button>
-                </div>
-                <div class="">
-                    <h5 class="text-center mt-5">Nimrodel</h5>
-
-                </div>
-                <div class="modal-body">
-                    <p> “ Nimrodel Significa “dama de la cueva blanca”. Fue una elfa silvana que vivió durante la
-                        Tercera Edad del Sol en el bosque de Lothlórien. En honor a su nombre, se acuña Nimrodel al río
-                        que nace en las Montañas Nubladas.</p>
-                </div>
-                <img src="./img/IMG2.jpg" class="" alt="bebidas" style="padding: 5%;">
-
-            </div>
-        </div>
-    </div>
-
     <div class="modal" tabindex="-1" role="dialog" id="bebidasmodal">
-        <div class="modal-dialog modal-lg" role="">
-            <div class="bg-dark text-light text-center">
-                <div class="d-flex justify-content-start " id="cerrar">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                    </button>
-                </div>
-                <div class="">
-                    <h5 class="text-center mt-5">Bebidas</h5>
-
-                </div>
-                <div class="modal-body">
-                    <p> Todas las bebidas se sirven con hielo y sin bombilla para cuidar el
-                        planeta.</p>
-                </div>
-                <img src="./img/bebidas.jpg" class="" alt="bebidas" style="padding: 5%;">
-
+        <div class="modal-dialog modal-lg"  role="">
+          <div class="bg-dark text-light text-center">
+            <div class="d-flex justify-content-start " id="cerrar">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+              </button>
             </div>
+            <div class="">
+              <h5 class="text-center mt-5">Bebidas</h5>
+              
+            </div>
+            <div class="modal-body">
+              <p> Todas las bebidas se sirven con hielo y sin bombilla para cuidar el
+                planeta.</p>
+            </div>
+            <img src="./img/bebidas.jpg" class="" alt="bebidas" style="padding: 5%;">
+           
+          </div>
         </div>
     </div>
 
     <div class="modal" tabindex="-2" role="dialog" id="tablamodal">
-        <div class="modal-dialog modal-lg" role="">
-            <div class="bg-dark text-light text-center">
-                <div class="d-flex justify-content-start " id="cerrar">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                    </button>
-                </div>
-                <div class="">
-                    <h5 class="text-center mt-5">Tablas</h5>
-
-                </div>
-
-                <div class="modal-body">
-                    <p>Encontrarás tablas creadas con los mejores productos, tenemos opciones
-                        veganas, carnívoras, keto y gluten Free</p>
-                </div>
-                <img src="./img/tablas.jpg" class="" alt="tablas" style="padding: 5%;">
-
+        <div class="modal-dialog modal-lg"  role="">
+          <div class="bg-dark text-light text-center">
+            <div class="d-flex justify-content-start " id="cerrar">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+              </button>
             </div>
+            <div class="">
+              <h5 class="text-center mt-5">Tablas</h5>
+              
+            </div>
+           
+            <div class="modal-body">
+              <p>Encontrarás tablas creadas con los mejores productos, tenemos opciones
+                veganas, carnívoras, keto y gluten Free</p>
+            </div>
+            <img src="./img/tablas.jpg" class="" alt="tablas" style="padding: 5%;">
+           
+          </div>
         </div>
     </div>
     <div class="modal" tabindex="-3" role="dialog" id="shopmodal">
-        <div class="modal-dialog modal-lg" role="">
-            <div class="bg-dark text-light text-center">
-                <div class="d-flex justify-content-start " id="cerrar">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-
-                    </button>
-                </div>
-                <div class="">
-                    <h5 class="text-center mt-5">Cervezas</h5>
-
-                </div>
-
-                <div class="modal-body">
-                    <p>Servidas a la perfecta temperatura y cantidad de espuma dependiendo del
-                        tipo de cerveza que prefieras. </p>
-                </div>
-                <img src="./img/shop.jpg" class="" alt="shops" style="padding: 5%;">
-
+        <div class="modal-dialog modal-lg"  role="">
+          <div class="bg-dark text-light text-center">
+            <div class="d-flex justify-content-start " id="cerrar">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                
+              </button>
             </div>
+            <div class="">
+              <h5 class="text-center mt-5">Cervezas</h5>
+              
+            </div>
+           
+            <div class="modal-body">
+              <p>Servidas a la perfecta temperatura y cantidad de espuma dependiendo del
+                tipo de cerveza que prefieras. </p>
+            </div>
+            <img src="./img/shop.jpg" class="" alt="shops" style="padding: 5%;">
+           
+          </div>
         </div>
     </div>
 
@@ -394,7 +355,7 @@
         </div>
     </div>
     <!-- footer o pie de pagina -->
-    <footer class="p-3 bg-dark text-light mt-5  foot text-center">
+    <footer class="p-3 bg-dark text-light  foot text-center fixed-bottom">
         <p>Todos los derechos reservados <i class="far fa-registered" style="color: #ebedef;"></i></p>
     </footer>
 
@@ -403,7 +364,7 @@
         integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
         crossorigin="anonymous"></script>
     <script src="./javascript/script.js"></script>
-
+    
 </body>
 
 </html>
