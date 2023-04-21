@@ -1,0 +1,29 @@
+
+#interior{
+    white-space: nowrap;
+    margin:auto;
+    background-color: hsla(32, 86%, 54%, 0.763);
+    border-color: orange;
+    border-width: 2px;
+    border-radius: 3%;
+
+}
+
+#barra{
+    background-image: url(../img/Digimon_Logo.svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 50px;
+}
+#tarjeta{
+    margin-top: 50px;
+}
+#individual{
+    background-color: hsla(32, 86%, 54%, 0.763);
+    border-color: orange;
+    border-width: 5px;
+    border-radius: 5%;
+
+}
+
